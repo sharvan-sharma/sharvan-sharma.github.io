@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    
+}
+body{
+    background:rgb(43, 41, 41);
+}
+#middle {
+    width:100%;
+    display:flex;
+    justify-content:flex-start;
+    align-content:center;
+    align-items:center;
+    flex-direction: column;
+    height:80vh;
+    margin-top:10vh;
+}
+#middle .oops{
+    color:white;
+    letter-spacing: 10px;
+    font-size:150px;
+    text-align: center;
+}
+#middle .c404{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-content:center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#middle .c404 #c404text{
+    color:white;
+    letter-spacing: 10px;
+    font-size:15px;
+    text-align: center;
+    padding:2vh;
+    margin-bottom:0%;
+}
+#middle .c404 p{
+    margin-bottom:0%;
+}
+#middle .c404 p #hp{
+    outline:none !important;
+    border-style:solid;
+    border-width:1px;
+    border-color:red;
+    color:red;
+    letter-spacing:2px;
+    font-size:20px;
+    padding:1vh 8vh;
+    background:rgb(43, 41, 41);
+    transition:0.3s all;
+    
+}
+#middle .c404 p #hp:hover{
+    color:greenyellow;
+    border-color:greenyellow;
+    transition:0.3s all;
+}
+
+@media (max-width:800px){
+
+    #middle {
+        width:100%;
+        display:flex;
+        justify-content:flex-start;
+        align-content:center;
+        align-items:center;
+        flex-direction: column;
+        height:80vh;
+        margin-top:10vh;
+    }
+    #middle .oops{
+        color:white;
+        letter-spacing: 10px;
+        font-size:150px;
+        text-align: center;
+    }
+    #middle .c404{
+        width:100%;
+        display:flex;
+        justify-content:center;
+        align-content:center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    #middle .c404 #c404text{
+        color:white;
+        letter-spacing: 10px;
+        font-size:15px;
+        text-align: center;
+        padding:2vh;
+        margin-bottom:0%;
+    }
+    #middle .c404 p{
+        margin-bottom:0%;
+    }
+    #middle .c404 p #hp{
+        outline:none !important;
+        border-style:solid;
+        border-width:1px;
+        border-color:red;
+        color:red;
+        letter-spacing:2px;
+        font-size:20px;
+        padding:1vh 8vh;
+        background:rgb(43, 41, 41);
+        transition:0.3s all;
+    }
+    #middle .c404 p #hp:hover{
+        color:greenyellow;
+        border-color:greenyellow;
+        transition:0.3s all;
+    }
+
+}

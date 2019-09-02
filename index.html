@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            SHARVAN SHARMA PORTFOLIO
+        </title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./assets/css/index.css" type="text/css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    </head>
+    <body onload="loadfunc()">
+        <!--preloader-->
+        <div id="loading"></div>
+        <!--preloader javascript-->
+        <script>
+            var preloader = document.getElementById("loading");
+            function loadfunc() {
+                setTimeout(function() {
+                    preloader.style.display = "none";
+                }, 2000);
+            }
+        </script>
+        <!--whole page container-->
+        <div id="div1">
+            <!--nav bar-->
+            <div id="nav" class="border-bottom container">
+                <div>
+                    <a href="./"><img src="./assets/img/logo.png" style="width:80px"></a>
+                </div>
+                <ul style="list-style: none;">
+                    <li class="rounded"><a href="my-story">MY STORY</a></li>
+                    <li class="rounded"><a href="art-gallery">ART GALLERY</a></li>
+                    <li class="rounded"><a href="#">MY WORK</a></li>
+                </ul>
+            </div>
+            <!--central div-->
+            <div id="centraldiv">
+                <p style="font-weight:900;text-align:center;
+               margin:auto;color:white;width:100%;">
+                    SHARVAN SHARMA
+                </p>
+                <div id="p1" style="text-align:center;
+                margin: auto;color:white;width:100%;">
+                    <ul style="list-style: none; margin-bottom: 0;">
+                        <li>
+                            <a class="fab fa-github-square" href="https://github.com/sharvanviper1"></a>
+                        </li>
+                        <li>
+                            <a class="fab fa-instagram" href="https://www.instagram.com/its.crown_king/?hl=en"></a>
+                        </li>
+                        <li>
+                            <a class="fab fa-facebook" href="https://www.facebook.com/profile.php?id=100008882024180&amp;ref=bookmarks"></a>
+                        </li>
+                        <li>
+                            <a class="fab fa-hackerrank" href="https://www.hackerrank.com/crownking_ss_518"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--intro section-->
+            <section class="container">
+                <div id="intro" class="row py-3 rounded">
+                    <div class="col-md-6 py-4 py-md-0 d-flex justify-content-center align-items-center">
+                        <img src="./assets/img/profile.jpg" class="rounded-circle" style="border: 2px solid cyan; max-width: 150px;">
+                    </div>
+                    <div class="col-md-6 text-center text-md-left">
+                        <p style="font-size:30px;font-weight:500;">
+                            CORE SKILLS
+                        </p>
+                        <hr style="border:none; width: 50%; height:1px; background-color:cyan">
+                        <p>Web Developer</p>
+                        <p>Python Programmer</p>
+                        <p>Sketch Artist</p>
+                        <p>Photo Editing Artist</p>
+                    </div>
+                </div>
+            </section>
+            <!--footer-->
+            <div id ="footer">
+                   <div>&copy;CROWNKDEV</div>
+            </div> 
+        </div>
+    </body>
+</html>

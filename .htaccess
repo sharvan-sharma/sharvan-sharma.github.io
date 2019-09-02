@@ -1,0 +1,17 @@
+ErrorDocument 404 /404.html
+
+#rewriteing cnditions and rules
+
+RewriteEngine on
+
+#condition one : the name that we are getting from url should not be a directory
+
+RewriteCond %{REQUEST_FILENAME} !-d 
+
+#condition one : the name that we are getting from url after adding html to it,it should be a .html file in server
+
+RewriteCond %{REQUEST_FILENAME}\.html -f 
+
+#rewriteing rule 1:which means after both the conditions are tru than take verything from url and add.html to that
+
+RewriteRule ^(.*)$ $1.html [NC,L]
