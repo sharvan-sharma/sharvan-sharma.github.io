@@ -176,12 +176,13 @@ body{
     max-width: 100%;
     display:flex;
     justify-content: center;
+    align-items:center;
     margin-bottom: 0;
 }
 .left .middle #profileimage img{
-    max-width: 40%;
+    
     height:auto;
-    border-radius:50%;
+
     border-style: none;
 }
 .left .middle #linklist{
