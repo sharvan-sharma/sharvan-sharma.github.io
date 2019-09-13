@@ -131,7 +131,7 @@ if (t == 0){
    r = l/4
 }
 else{
-    r = Math.ceil(l/4)
+    r = Math.floor(l/4)
 }
 for(i = 0  ;i < 4; i++){
     for(j = 1  ; j <= r ; j++){
