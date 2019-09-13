@@ -6,7 +6,7 @@ var queanslist=["",
                  new queans(
                      "WHO I AM?",
                      `HELLO!
-                     My name is Sharvan sharma.</br>
+                     I am Sharvan sharma.</br>
                      I live in Amritsar,punjab,india.I am pursuing Bachelor of technology in computer science
                      from Guru Nanak Dev University,Amritsar.I have keen interest in developing products based on 
                      Artificial intelligence and Algorithmic design.I have contributed in some minor projects as algorithm 
