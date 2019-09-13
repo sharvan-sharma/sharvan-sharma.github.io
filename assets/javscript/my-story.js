@@ -33,7 +33,7 @@ var queanslist=["",
                      Diet plays an important role in fitness , so i have also a bit knowledge of nutrition.
                      </br>
                      I have a great interest in cinema .I like to watch Movies , Web series , Theatre dramas of every genre.
-                     I also like to listen music of every genre and of many different languages , whether i understad or not,HAHAHA.</br>
+                     I also like to listen music of every genre and of many different languages , whether i understand or not,HAHAHA.</br>
                      so,that's what i am...`
                     
                 ),
