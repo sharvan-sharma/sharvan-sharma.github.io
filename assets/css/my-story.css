@@ -95,7 +95,6 @@
 #middle .leftp .imgleftp .imgl img{
     max-width:80%;
     margin-left:0%;
-    height:auto;
     margin-bottom:0%;
 }
 #middle .leftp .imgleftp .desc{
@@ -257,6 +256,19 @@
         justify-content: space-around;
         align-items: center;
         margin-left:0%;
+    }
+    #middle .leftp .imgleftp .imgl{
+        max-width:100%;
+        flex:100%;
+        display:flex;
+        justify-content :center;
+        align-content:center;
+        align-items:center;
+    }
+    #middle .leftp .imgleftp .imgl img{
+        max-width:80%;
+        margin-left:0%;
+        margin-bottom:0%;
     }
     #middle .rightp{
         display: flex;
