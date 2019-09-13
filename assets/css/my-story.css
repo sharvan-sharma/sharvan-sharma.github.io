@@ -84,6 +84,14 @@
     justify-content: center;
     margin-bottom:0%;
 }
+#middle .leftp .imgleftp .imgl{
+    max-width:100%;
+    flex:100%;
+    display:flex;
+    justify-content :center;
+    align-content:center;
+    align-items:center;
+}
 #middle .leftp .imgleftp .imgl img{
     max-width:80%;
     margin-left:0%;
