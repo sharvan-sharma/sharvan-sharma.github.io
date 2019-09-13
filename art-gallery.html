@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Art Gallery</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="assets/javscript/art-gallery.js"></script>
+  <link href="./assets/css/index.css" type="text/css" rel="stylesheet">
+  <link href="./assets/css/art-gallery.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<!---displayer-->
+<!--nav bar-->
+<div id="nav" class="border-bottom container ">
+    <div>
+        <a href="./"><img src="./assets/img/logo.png" style="width:80px"></a>
+    </div>
+    <ul style="list-style: none;">
+        <li class="rounded"><a href="my-story">MY STORY</a></li>
+        <li class="rounded"><a href="art-gallery">ART GALLERY</a></li>
+        <li class="rounded"><a href="#">MY WORK</a></li>
+    </ul>
+</div>
+<!--image displayer-->
+
+  <div id="displayer">
+    <div class="slider">
+        <div class="imageareatop">
+            <button id="hider" onclick="antidisplayer();" class="fas fa-times"></button>
+        </div>
+        <div class="middlearea">
+            <!--display populator-->
+        </div>
+        <div class="dispfooter">
+          <p>&copy;CROWNKDEV</p>
+        </div>
+    </div>
+  </div>
+  
+<!-- Header -->
+<div class="header">
+    <div id="logo">
+      <img src="./assets/img/art-gallery/mylogo.jpg" >
+    </div>
+    <div id="intro-art">
+           <p id ="pp1">ART GALLERY</p> 
+           <p style=" text-align:center; font-size:2vh">
+                ----Express exactly what you want to Express----  
+           </p>
+    </div> 
+</div>
+<hr style="border:none;width:70%;height:2px;background-color:grey;margin:32px auto;">
+<!-- Photo Grid -->
+<div class="row"> 
+  <!--populator-->
+</div>
+<hr style="border:none;width:70%;height:2px;background-color:black;margin:32px auto;">
+<!--footer-->
+<div id ="footer">
+  &copy; CROWNKDEV
+</div>
+<script src="./assets/javscript/art-gallery.js"></script>
+</body>
+</html>
