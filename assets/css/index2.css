@@ -545,8 +545,8 @@ body{
     }
     .right #arrow{
         position:fixed;
-        top:85vh;
-        left:85vw;
+        top:80vh;
+        left:80vw;
         border-radius:15px;
     }
     .right #arrow #lefta{
