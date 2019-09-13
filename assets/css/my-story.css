@@ -226,7 +226,8 @@
         max-width:100%;
         display:flex;
         justify-content:center;
-        margin-bottom: 0;
+        margin-bottom: 2vh;
+        margin-top: 2vh;
     }
     #nav ul li{
         padding:5px 5px;
