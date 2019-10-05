@@ -13,7 +13,7 @@ body{
     top:0;
     left:0;
     width:100%;
-    background: #222629f8;
+    background: rgba(34,38,41,0.95);
     display:flex;
     justify-content: space-around;
     align-items: center;
