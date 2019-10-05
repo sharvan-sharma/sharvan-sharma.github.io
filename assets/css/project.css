@@ -13,7 +13,7 @@ body{
     top:0;
     left:0;
     width:100%;
-    background: rgba(34,38,41,0.95);
+    background-color: rgba(34,38,41,0.95);
     display:flex;
     justify-content: space-around;
     align-items: center;
@@ -272,6 +272,7 @@ body{
 @media screen and (max-width:768px){
     #navbar{
         justify-content: flex-start;
+        background-color: rgba(34,38,41,0.95);
     }
     #navbar #mobnav{
         display: flex;
