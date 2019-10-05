@@ -29,6 +29,7 @@ p{
     display:flex;
     justify-content: flex-start;
     align-items: center;
+    background:rgba(34,38,41,0.95)
 }
 #left .navbar .navbutton{
     flex:25%;
