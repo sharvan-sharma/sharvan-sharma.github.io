@@ -160,16 +160,20 @@ body{
     margin-top:5vh;
 } 
 .left .middle #profileimage{
-    flex:100%;
-    max-width: 100%;
-    display:flex;
-    justify-content: center;
-    margin-bottom: 0;
+        max-width:100%;
+        flex:100%;
+        display:flex;
+        justify-content :center;
+        align-content:center;
+        align-items:center;
+        margin-bottom: 0;
 }
 .left .middle #profileimage img{
-    max-width: 40%;
-    border-radius:50%;
-    border-style: none;
+        max-width:80%;
+        margin-left:0%;
+        margin-bottom:0%;
+        border-radius:50%;
+        border-style: none;
 }
 .left .middle #linklist{
     flex:100%;
@@ -510,6 +514,8 @@ body{
         font-size: 20px;
         height:15vh;
     }
+    #loading #profilebutton button{
+        background:#0d0d0edc;}
     .left{
         height: auto;
         min-height: auto;
