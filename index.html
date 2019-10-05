@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SHARVAN SHARMA PROFILE</title>
+        <!--link section-->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
+        <!--external css file-->
+        <link rel="stylesheet" href="./assets/css/index2.css" type="text/css" />
+    </head>
+    <body>
+        <!--pre loader section-->
+        <div id="loading">
+                <div id = "introtext">
+                    Developer
+                    <br>
+                    Believe In Learning
+                    <br>
+                    Love To Develop Solutions
+                    <br> For Your Problems
+                </div>
+                <div id = "profilebutton"><button id = "pb1" onclick="loadfunc()">Visit My Profile</button></div>
+            </div>
+            <!--preloader javascript-->
+            <script>
+                var preloader = document.getElementById("loading");
+                function loadfunc() {
+                    preloader.style.display = "none";
+                    document.documentElement.style.overflowY = "auto";
+                }
+            </script>
+        <div class = "bigscreen">
+            <div id="top"></div>
+            <!--left part of window-->
+            <div class = "left"> 
+                <!--navigation bar-->
+                 <!--navbar-->
+                <div class = "navbar">
+                    <div class = "navbutton">
+                        <button id = "nb1" class="fas fa-bars" onclick="movnavdisp()"></button>
+                    </div>
+                    <div class = "logo">
+                        <a href="./"><img src="./assets/img/logo.png" style="width:80px"></a>
+                    </div>
+                    <div class = "links">
+                        <ul>
+                            <li class="rounded"><a href="my-story">MY STORY</a></li>
+                            <li class="rounded"><a href="art-gallery">ART GALLERY</a></li>
+                            <li class="rounded"><a href="#">MY WORK</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--middle section-->
+                 <div class = "middle">
+                     <!--profileimage part-->
+                     <div id = "profileimage">
+                        <img src="./assets/img/profile.jpg">
+                     </div>
+                     <!--list of in page links-->
+                     <div id ="linklist">
+                        <ul style="list-style: none">
+                            <li>
+                                <a id = "introduction" href="#intro">Introduction</a>
+                            </li>
+                            <li>
+                                <a id = "skills" href="#skill">Skills</a>
+                            </li>
+                            <li>
+                                <a id =  "education" href="#edu">Education</a>
+                            </li>
+                        </ul>
+                    </div>
+                 </div>
+                 <!--footer-->
+                 <div class = "footer">
+                        <ul style="list-style: none; margin-bottom: 0;">
+                                <li>
+                                    <a class="fab fa-github-square" href="https://github.com/sharvan-sharma"></a>
+                                </li>
+                                <li>
+                                    <a class="fab fa-instagram" href="https://www.instagram.com/its.crown_king/?hl=en"></a>
+                                </li>
+                                <li>
+                                    <a class="fab fa-facebook" href="https://www.facebook.com/profile.php?id=100008882024180&amp;ref=bookmarks"></a>
+                                </li>
+                                <li>
+                                    <a class="fab fa-hackerrank" href="https://www.hackerrank.com/crownking_ss_518"></a>
+                                </li>
+                        </ul>
+                 </div>
+            </div>
+            <!--righht part of window-->
+            <div class = "right">
+                <!--upperarrow-->
+                <div id="arrow">
+                    <a id = "lefta" href = "#top" class="fas fa-arrow-up"></a>
+                    <a id = "righta" href = "#intro" class="fas fa-arrow-up"></a>
+                </div>
+                <!--navbar-->
+                <div class = "nav">
+                        <ul style="list-style: none;">
+                                <li class="rounded"><a href="my-story.html">My Story</a></li>
+                                <li class="rounded"><a href="art-gallery.html">Art Gallery</a></li>
+                                <li class="rounded"><a href="#">My Work</a></li>
+                        </ul>
+                </div>
+                <!--middle-->
+                <div id="intro" ></div>
+                <div class="middle">
+                    <!--introduction-->
+                    
+                    <div class ="introduction">
+                        <div id ="name">SHARVAN SHARMA</div>
+                        <div id ="introtext">I am System Analyst and Designer .Currently,I am
+                                           pursuing Bachelor Degree in Computer Science and Engineering from 
+                                           Guru Nanak Dev Unviversity,Amritsar. I have experience of minor projects 
+                                           on each phase of system development life cycle . I have made projects on 
+                                           systems like Food Ordering System and Stock Managment system .I have 
+                                           interest in making new systems and Enhance existing systems . I am capable of 
+                                           design ,code and test .Currently,I am learning and experimenting with new age 
+                                           technologies like Artifical Intelligence and Machine learning to embed them in
+                                           my upcoming projects. 
+                        </div>
+                    </div>
+                    <!--skills-->
+                    <div id="skill" ></div>
+                    <div class = "skills">
+                        <div class ="headlabel">
+                            <p>SKILLS</p>
+                        </div>
+                        <div class = "majlabel">
+                               <div class = "title">
+                                    Front End development
+                               </div>
+                               <div class = "list">
+                                    <ul>
+                                        <li>HTML5</li>
+                                        <li>CSS3</li>
+                                        <li>JAVASCRIPT</li>
+                                    </ul>
+                               </div>
+                        </div>
+                        <div class = "majlabel">
+                                <div class = "title">
+                                     Programming Languages
+                                </div>
+                                <div class = "list">
+                                     <ul>
+                                         <li>Python</li>
+                                         <li>JavaScript</li>
+                                         <li>C++</li>
+                                         <li>C#</li>
+                                         <li>Java</li>
+                                     </ul>
+                                </div>
+                         </div>
+                         <div class = "majlabel">
+                                <div class = "title">
+                                     Python Libraries
+                                </div>
+                                <div class = "list">
+                                     <ul>
+                                         <li>Pillow</li>
+                                         <li>Tkinter</li>
+                                         <li>Matplotlib</li>
+                                         <li>Pandas</li>
+                                         <li>SCI-KIT</li>
+                                     </ul>
+                                </div>
+                         </div>
+                         <div class = "majlabel">
+                                <div class = "title">
+                                     Full Stack Development
+                                </div>
+                                <div class = "list">
+                                     <ul>
+                                         <li>ASP.net</li>
+                                         <li>Html</li>
+                                         <li>css</li>
+                                         <li>javascript</li>
+                                         <li>c#</li>
+                                         <li>Ms-SQL-server</li>
+                                         <li>MySQL</li>
+                                     </ul>
+                                </div>
+                        </div>
+                        <div class = "majlabel">
+                                <div class = "title">
+                                     Software Experience
+                                </div>
+                                <div class = "list">
+                                     <ul>
+                                         <li>VS CODE</li>
+                                         <li>VISUAL STUDIO 2017</li>
+                                         <li>ANACONDA</li>
+                                         <li>MOZILLA DEVELOPER EDITION</li>
+                                     </ul>
+                                </div>
+                        </div>
+                    </div>
+                    <!--education-->
+                    <div id = "edu"></div>
+                    <div class = "education">
+                            <div class ="headlabel">
+                                <p>Educational Qualification</p>
+                            </div>
+                            <div class = "majlabel" >
+                                   <div class = "title">
+                                        ENGINEERING
+                                   </div>
+                                   <div class = "list">
+                                        <ul>
+                                            <li>Major : Computer Science</li>
+                                            <li>Institute : Guru Nanak Dev University,Amritsar,Punjab,India</li>
+                                            <li>Duration : 2016-present</li>
+                                            <li>Grade : 7.99 CGPA uptill 6th Semester</li>
+                                        </ul>
+                                   </div>
+                            </div>
+                            <div class = "majlabel" >
+                                    <div class = "title">
+                                        INTERMEDIATE
+                                    </div>
+                                    <div class = "list">
+                                         <ul>
+                                             <li>Major : Non Medical</li>
+                                             <li>Institute : Manav Public School,Amritsar,Punjab,India</li>
+                                             <li>Duration : 2013-2016</li>
+                                             <li>Grade : 89.4% in CBSE BOARD Examination</li>
+                                         </ul>
+                                    </div>
+                             </div>
+                             <div class = "majlabel" >
+                                    <div class = "title">
+                                        MATRICULATION
+                                    </div>
+                                    <div class = "list">
+                                         <ul>
+                                             <li>Major : General</li>
+                                             <li>Institute : Guru Nanak Dev University,Amritsar,Punjab,India</li>
+                                             <li>Duration : 2011-2013</li>
+                                             <li>Grade : 8.0 CGPA in CBSE BOARD Examination</li>
+                                         </ul>
+                                    </div>
+                             </div>
+                    </div>
+                </div>
+                <!--footer-->
+                <div class="footer">
+                    <ul>
+                        <li>&copy;CROWNKDEV</li>
+                    </ul>
+                </div>
+            
+        </div>
+    <script>
+        var x = document.querySelector(".left .navbar .links");
+        var y = document.getElementById("nb1");
+        function movnavdisp(){
+            if (x.style.display === "none" || x.style.display === ""){
+                x.style.animationName = "links";
+                x.style.display = "flex";
+                y.className = "fa fa-times";
+            }
+            else{
+                x.style.animationName = "linksclose";
+                setTimeout(function()
+                        {
+                            x.style.display = "none";  
+
+                        }, 500);
+                
+                y.className = "fas fa-bars";
+            }
+        }</script>
+    </body>
+</html>
