@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blogs</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Sintony&display=swap" rel="stylesheet">
+    <link href="./assets/css/projectblog.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <!--left-->
+    <div id = "left">
+        <!--navbar-->
+        <div class = "navbar">
+            <div class = "navbutton">
+                <button id = "nb1" class="fas fa-bars" onclick="movnavdisp()"></button>
+            </div>
+            <div class = "logo">
+                <a href="./"><img src="./assets/img/logo.png" style="width:80px"></a>
+            </div>
+            <div class = "links">
+                <ul>
+                    <li class="rounded"><a href="my-story">MY STORY</a></li>
+                    <li class="rounded"><a href="art-gallery">ART GALLERY</a></li>
+                    <li class="rounded"><a href="#">MY WORK</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--middle-->
+        <div class = "middle">
+                <!--leftpopulate-->
+        </div>
+        <!--footer-->
+        <div class = "footer">
+                <div class ="ftlinks">
+                        <ul style="list-style: none; margin-bottom: 0;">
+                                <li>
+                                    <a class="fab fa-github-square" href="https://github.com/sharvan-sharma"></a>
+                                </li>
+                                <li>
+                                    <a class="fab fa-instagram" href="https://www.instagram.com/its.crown_king/?hl=en"></a>
+                                </li>
+                                <li>
+                                    <a class="fab fa-facebook" href="https://www.facebook.com/profile.php?id=100008882024180&amp;ref=bookmarks"></a>
+                                </li>
+                                <li>
+                                    <a class="fab fa-hackerrank" href="https://www.hackerrank.com/crownking_ss_518"></a>
+                                </li>
+                        </ul>
+                </div>
+        </div>
+    </div> 
+    <!--right-->
+    <div id = "right">
+            <!--navbar-->
+            <div class = "navbar">
+                    <div class = "links">
+                            <ul>
+                                <li class="rounded"><a href="my-story">MY STORY</a></li>
+                                <li class="rounded"><a href="art-gallery">ART GALLERY</a></li>
+                                <li class="rounded"><a href="#">MY WORK</a></li>
+                            </ul>
+                    </div>
+            </div>
+            <!--middle-->
+            <div class = "middle">
+                <!--rightpopulate-->
+            </div>
+            <!--footer-->
+            <div class = "footer">
+                    <div class ="ftlinks">
+                            <ul style="list-style: none; margin-bottom: 0;">
+                                    <li>
+                                        <a class="fab fa-github-square" href="https://github.com/sharvan-sharma"></a>
+                                    </li>
+                                    <li>
+                                        <a class="fab fa-instagram" href="https://www.instagram.com/its.crown_king/?hl=en"></a>
+                                    </li>
+                                    <li>
+                                        <a class="fab fa-facebook" href="https://www.facebook.com/profile.php?id=100008882024180&amp;ref=bookmarks"></a>
+                                    </li>
+                                    <li>
+                                        <a class="fab fa-hackerrank" href="https://www.hackerrank.com/crownking_ss_518"></a>
+                                    </li>
+                            </ul>
+                    </div>
+                    <div class ="dev">
+                        Developer : Sharvan sharma
+                    </div>
+                    <div class ="devlogo">
+                             &copy;CROWNKDEV
+                    </div>
+            
+    
+            </div>
+    </div> 
+<script>
+var x = document.querySelector("#left .navbar .links");
+        var y = document.getElementById("nb1");
+        function movnavdisp(){
+            if (x.style.display === "none" || x.style.display === ""){
+                x.style.animationName = "links";
+                x.style.display = "flex";
+                y.className = "fa fa-times";
+            }
+            else{
+                x.style.animationName = "linksclose";
+                setTimeout(function()
+                        {
+                            x.style.display = "none";  
+
+                        }, 500);
+                
+                y.className = "fas fa-bars";
+            }
+        }</script>
+<script src="./assets/javscript/projectblog.js"></script>
+</body>
+</html>
