@@ -579,7 +579,7 @@ body{
     }
     .right #arrow{
         position:fixed;
-        top:85vh;
+        top:75vh;
         left:85vw;
         border-radius:15px;
     }
