@@ -55,7 +55,7 @@ body{
     font-family: 'Satisfy', cursive;
     word-spacing:8px;
     padding:10px 26px;
-    background-color:#0d0d0edc;
+    background-color:rgba(13,13,14,0.4);
     transition:0.3s all;
     outline:none !important;
 }
@@ -86,6 +86,7 @@ body{
     display:flex;
     justify-content: flex-start;
     align-items: center;
+    background:rgba(25,27,29,0.4)
 }
 .left .navbar .navbutton{
     flex:25%;
@@ -146,7 +147,7 @@ body{
 }
 .left .navbar .links ul li a:hover{
     text-decoration:none;
-    color:cyan;
+    color:#86c232;
     padding:8px ;
     background:black;
     transition:0.3s all;
@@ -518,7 +519,7 @@ body{
         height:15vh;
     }
     #loading #profilebutton button{
-        background:#0d0d0edc;}
+        background:rgba(13,13,14,0.4);}
     .left{
         height: auto;
         min-height: auto;
