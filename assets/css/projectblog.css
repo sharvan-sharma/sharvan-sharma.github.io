@@ -1,0 +1,398 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Sintony', sans-serif;
+    box-sizing: border-box;
+    overflow-x:hidden;
+}
+
+p{
+    margin-bottom:0;
+}
+#left{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    height:auto;
+    width:30%;
+    background: #222629;
+    position:fixed;
+    top:0;
+    left:0;
+    box-shadow:0 5px 5px #222629;
+}
+#left .navbar{
+    position:unset;  
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#left .navbar .navbutton{
+    flex:25%;
+    max-width:25%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#left .navbar .navbutton button{
+    display: none;
+    color:white;
+    font-size:20px;
+    background: inherit;
+    border-style:none;
+    outline:none !important;
+}
+#left .navbar .logo{
+    flex:50%;
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+#left .navbar .links{
+    flex:100%;
+    max-width: 100%;
+    display: none;
+    justify-content: center;
+    align-items:center;
+}
+#left .navbar .links ul{
+    flex:70%;
+    max-width: 70%;
+    list-style: none;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    margin-top:5vh;
+    margin-bottom:5vh;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color:white;
+}
+#left .navbar .links ul li{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:1vh;
+}
+#left .navbar .links ul li a{
+    text-decoration:none;
+    color:white;
+    font-size:15px;
+    padding:8px ;
+    letter-spacing: 2px;
+    transition:0.3s all;
+}
+#left .navbar .links ul li a:hover{
+    text-decoration:none;
+    color:cyan;
+    padding:8px ;
+    background:black;
+    transition:0.3s all;
+}
+#left .middle{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+
+}
+
+#left .middle .blogname p{
+    font-size:2vw;
+    color:white;
+    border-bottom: white solid 4px;
+    text-align:center;
+}
+#left .middle .blogtags{
+    flex:70%;
+    max-width:70%;
+    display:flex;
+    flex-direction: row;
+}
+#left .middle .blogtags ul{
+    list-style:none;
+    flex:100%;
+    max-width: 100%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top:2vh;
+}
+#left .middle .blogtags ul li{
+    border:white solid 1px;
+    border-radius:10px;
+    color:white;
+    text-align:center;
+    padding:4px 8px;
+    margin:1vh;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    width:100%;
+    background: white;
+}
+#left .footer{
+    background: #222629;
+    margin-top:5vh;
+    margin-bottom: 5vh;
+}
+.footer .ftlinks{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    
+}
+#right .footer .ftlinks{
+    display: none;
+}
+.footer .ftlinks ul{
+    flex:   100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.footer .ftlinks ul li{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin:4px;
+}
+.footer .ftlinks ul li a{
+    text-decoration:none;
+    color:#222629;
+    font-size:30px;
+}
+.footer .ftlinks ul li a:hover{
+    color:grey;
+}
+#left .footer .ftlinks ul li a{
+    color:white;
+}
+#left .footer .ftlinks ul li a:hover{
+    color:grey;
+}
+.footer .dev{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    color:#222629;
+    margin-top:2vh;
+    margin-bottom:2vh;
+}
+.footer .devlogo{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    color: #222629;
+    margin-top:2vh;
+    margin-bottom:2vh;
+}
+#right{
+    margin-left:30%;
+    width:70%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+#right .navbar{
+    z-index:1;
+    width:70%;
+    position: fixed;
+    top:0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding:0;
+    box-shadow: 5px 0 5px #222629;
+    background: #ffffffde;
+}
+#right .navbar .links{
+    flex:100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+}
+#right .navbar .links ul{
+    list-style: none;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+    margin-top:1vh;
+    margin-bottom: 1vh;
+}
+#right .navbar .links ul li{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:1vh;
+}
+#right .navbar .links ul li a{
+    text-decoration:none;
+    color:#222629;
+    font-size:15px;
+    padding:8px ;
+    letter-spacing: 2px;
+    transition:0.3s all;
+}
+#right .navbar .links ul li a:hover{
+    text-decoration:none;
+    color:cyan;
+    padding:8px ;
+    background:#222629;
+    transition:0.3s all;
+}
+#right .middle{
+    margin-top:20vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex:80%;
+    width:80%;
+    flex-direction: column;
+}
+#right .middle .header{
+    display: flex;
+    padding:2vh;
+    justify-content:center;
+    align-items: center;
+    flex:100%;
+    max-width:100%;
+    color:#222629;
+}
+#right .middle .headercontent{
+    padding:2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex:100%;
+    font-size:15px;
+    max-width:100%;
+    text-align:left;
+    color:#222629;
+    flex-direction: column;
+    word-spacing: 8px;
+}
+#right .footer{
+    margin-top:10vh;
+}
+@media screen and (max-width:768px){
+    #left{
+        height: auto;
+        min-height: auto;
+   
+        width:100%;
+        background: #222629;
+        position: relative;
+        top:0;
+        left:0;
+        box-shadow: none;
+    }
+    #left .navbar{
+        position: fixed;
+        top:0;
+        left:0;
+        z-index: 2;
+        width:100%;
+        padding:0;
+        background: #222629f8;
+    }
+   
+    #left .navbar .navbutton button{
+        display:flex;
+    }
+    #left .navbar .links{
+        display:none;
+        animation-duration: 0.5s;
+        animation-timing-function:linear;
+    }
+    @keyframes links {
+        0%   {height:0vh;overflow-y:hidden;}
+        25%   {height:10vh;overflow-y:hidden;}
+        50% {height:20vh;overflow-y:hidden;}
+        75% {height:30vh;overflow-y:hidden;}   
+        100% {height:36vh;overflow-y:visible;}  
+    }
+    @keyframes linksclose {
+        0% {height:36vh;overflow-y:visible;}  
+        25% {height:30vh;overflow-y:hidden;} 
+        50% {height:20vh;overflow-y:hidden;}
+        75%   {height:10vh;overflow-y:hidden;}
+        100%   {height:0vh;overflow-y:hidden;}   
+    }
+    #left .middle{
+        margin-top:25vh;
+    }
+  
+    #left .middle .blogname p{
+        font-size: 20px;
+    }
+    #left .middle .blogtags ul li{
+        font-size:12px;
+    }
+    #left .footer .ftlinks{
+        display: none; 
+    }
+    #right{
+        margin-left:0%;
+        width:100%;
+        background: white;
+    }
+    #right .navbar .links{
+        display:none;
+    }
+    #right .middle{
+        margin-top:5vh;
+        align-items: center;
+    }
+    #right .middle .headercontent{
+        text-align:center;
+    }
+    #right .footer .ftlinks{
+        display: flex;
+    }
+   
+    .footer{
+        background: #222629;
+    }
+    .footer .ftlinks {
+        flex:100%;
+        max-width: 100%;
+        margin-top:2vh;
+        margin-bottom:2vh;
+    }
+    .footer .ftlinks ul li a{
+        color:white;
+    }
+    .footer .dev {
+        flex:100%;
+        max-width: 100%;
+        color:white;
+        margin-top:2vh;
+        margin-bottom:2vh;
+    }
+    .footer .devlogo {
+        flex:100%;
+        max-width: 100%;
+        color:white;
+        margin-top:2vh;
+        margin-bottom:2vh;
+    }
+}

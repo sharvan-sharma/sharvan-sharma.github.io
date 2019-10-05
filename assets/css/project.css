@@ -1,0 +1,374 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    overflow-x:hidden;
+}
+body{
+    background: black;
+}
+#navbar{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background: #222629f8;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap:wrap;
+    z-index: 2;
+}
+#navbar #mobnav{
+    display:none;
+    justify-content: center;
+    align-items: center;
+}
+#navbar #mobnav button{
+    color:white;
+    font-size:20px;
+    background: inherit;
+    border-style:none;
+    outline:none !important;
+}
+#navbar #logo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#navbar #logo a{
+    text-decoration: none;
+}
+#navbar #links{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+}
+#navbar #links ul{
+    list-style: none;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top:1vh;
+     margin-bottom:1vh;
+}
+#navbar #links ul li{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:4px;
+}
+#navbar #links ul li a{
+    text-decoration:none;
+    color:white;
+    font-size:15px;
+    padding:8px ;
+    letter-spacing: 2px;
+    transition:0.3s all;
+}
+#navbar #links ul li a:hover{
+    text-decoration:none;
+    color:cyan;
+    padding:8px ;
+    background:black;
+    transition:0.3s all;
+}
+#middle{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top:10vh;
+    width:100%;
+}
+#middle .pblogs{
+    padding-top:10vh;
+    padding-bottom:5vh;
+    font-size:40px;
+    letter-spacing:2px;
+    color:white;
+    background:black;
+    flex:90%;
+    width:90%;
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+    border-bottom-style: solid;
+    border-bottom-color:white;
+    border-bottom-width:1px;
+    
+} 
+#middle .categorybox{
+    flex:100%;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;   
+}
+#middle .categorybox div{
+    flex:100%;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;   
+}
+#middle .categorybox div .left{
+    padding:5vh;
+    flex:50%;
+    max-width:50%;
+    align-content:center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap:wrap;
+    height:70vh;
+    background: rgba(0, 0, 0, 0.26);
+
+}
+#middle .categorybox div .left .title{
+    flex:100%;
+    max-width:100%;
+    font-size:40px;
+    font-weight:500;
+    color:white;
+    text-align:center;
+    z-index: 1;
+   
+}
+#middle .categorybox div .left .content{
+    flex:70%;
+    max-width:70%;
+    font-size:15px;
+    font-weight:300;
+    color:white;
+    text-align:center;
+    z-index: 1;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+
+}
+#middle .categorybox div .right{
+    padding:5vh;
+    height:70vh;
+    flex:50%;
+    max-width:50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    align-content:center;
+    flex-wrap:wrap;
+    background: rgba(0, 0, 0, 0.26);
+}
+#middle .categorybox div .right .buttonlist{
+    flex:100%;
+    max-width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    z-index: 1; 
+    
+}
+#middle .categorybox div .right .buttonlist ul{
+    flex:100%;
+    max-width:100%;
+    list-style: none;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    margin-top:1vh;
+    margin-bottom:1vh;
+
+}
+#middle .categorybox div .right .buttonlist ul li{
+    flex:100%;
+    max-width:100%;
+}
+#middle .categorybox div .right .buttonlist ul li button{
+    color:white;
+    font-size:20px;
+    padding:4px 8px;
+    border-style: solid;
+    border-radius:5px;
+    background: inherit;
+    border-color:white;
+    border-width:1px;
+    margin-top:1vh;
+    margin-bottom:1vh;
+    text-align: center;
+    transition:0.3s all;
+}
+#middle .categorybox div .right .buttonlist ul li:hover button{
+    color:black;
+    border-color:white;
+    background:white;
+    transition:0.3s all;
+}
+#footer{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    width:100%;
+    background: #222629;
+}
+#footer .ftlinks{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    
+}
+#footer .ftlinks ul{
+    flex:   100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+#footer .ftlinks ul li{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin:4px;
+}
+#footer .ftlinks ul li a{
+    text-decoration:none;
+    color:white;
+    font-size:30px;
+}
+#footer .ftlinks ul li a:hover{
+    color:grey;
+}
+#footer .dev{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    color:white;
+    margin-top:2vh;
+    margin-bottom:2vh;
+}
+#footer .devlogo{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    color:white;
+    margin-top:2vh;
+    margin-bottom:2vh;
+}
+@media screen and (max-width:768px){
+    #navbar{
+        justify-content: flex-start;
+    }
+    #navbar #mobnav{
+        display: flex;
+        flex:25%;
+        max-width:25%;
+    }
+    #navbar #logo{
+        flex:50%;
+        max-width:50%;
+    }
+    #navbar #links{
+        flex:100%;
+        max-width:100%;
+        display:none;
+        flex-wrap:wrap;
+        animation-duration: 0.5s;
+        animation-timing-function:linear;
+    }
+    @keyframes links {
+        0%   {height:0vh;overflow-y:hidden;}
+        25%   {height:10vh;overflow-y:hidden;}
+        50% {height:20vh;overflow-y:hidden;}
+        75% {height:30vh;overflow-y:hidden;}   
+        100% {height:36vh;overflow-y:visible;}  
+    }
+    @keyframes linksclose {
+        0% {height:36vh;overflow-y:visible;}  
+        25% {height:30vh;overflow-y:hidden;} 
+        50% {height:20vh;overflow-y:hidden;}
+        75%   {height:10vh;overflow-y:hidden;}
+        100%   {height:0vh;overflow-y:hidden;}   
+    }
+    #navbar #links ul{
+        flex:70%;
+        max-width:70%;
+        flex-direction : column;
+        margin-top:5vh;
+        margin-bottom:5vh;
+        border-top-style: solid;
+        border-top-width: 1px;
+        border-top-color:white;
+    }
+    #navbar #links ul li{
+        width:100%;
+        margin-top:1vh;
+        margin-bottom:1vh;
+    }
+    #navbar #links ul li a{
+        width:100%;
+        text-align:center; 
+        font-size: 15px;
+    }
+    #middle .pblogs{
+        justify-content: center;
+        font-size: 30px;
+        flex:80%;
+        width:80%;
+    }
+    #middle .categorybox div .left{
+        flex:100%;
+        max-width:100%;
+        align-content: center;
+        height:auto;
+        background:rgba(0, 0, 0, 0.6)
+       
+    }
+    #middle .categorybox div .left .title{
+        font-size:30px;
+        
+    }
+    #middle .categorybox div .left .content{
+        font-size:15px;
+        letter-spacing: 0px;
+        color:aliceblue;
+    }
+    #middle .categorybox div .right .buttonlist ul li button{
+        font-size:12px;
+    }
+    #middle .categorybox div .right{
+        flex:100%;
+        max-width:100%;
+        height:auto;
+        background:rgba(0, 0, 0, 0.6)
+    }
+    #footer .ftlinks{
+        flex:100%;
+        max-width: 100%;
+        margin:4vh;
+    }
+    #footer .dev{
+        flex:100%;
+        max-width: 100%;
+        margin:4vh;
+    }
+    #footer .devlogo{
+        flex:100%;
+        max-width: 100%;
+        margin:4vh;
+    }
+}
