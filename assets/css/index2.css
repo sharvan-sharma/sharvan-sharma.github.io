@@ -55,7 +55,7 @@ body{
     font-family: 'Satisfy', cursive;
     word-spacing:8px;
     padding:10px 26px;
-    background:#0d0d0edc;
+    background-color:#0d0d0edc;
     transition:0.3s all;
     outline:none !important;
 }
