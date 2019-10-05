@@ -519,7 +519,7 @@ body{
         height:15vh;
     }
     #loading #profilebutton button{
-        background:rgba(13,13,14,0.4);}
+        background:rgba(13,13,14,0.8);}
     .left{
         height: auto;
         min-height: auto;
