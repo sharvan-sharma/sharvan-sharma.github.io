@@ -553,10 +553,10 @@ body{
         25%   {height:10vh;overflow-y:hidden;}
         50% {height:20vh;overflow-y:hidden;}
         75% {height:30vh;overflow-y:hidden;}   
-        100% {height:36vh;overflow-y:visible;}  
+        100% {height:40vh;overflow-y:visible;}  
     }
     @keyframes linksclose {
-        0% {height:36vh;overflow-y:visible;}  
+        0% {height:40vh;overflow-y:visible;}  
         25% {height:30vh;overflow-y:hidden;} 
         50% {height:20vh;overflow-y:hidden;}
         75%   {height:10vh;overflow-y:hidden;}
